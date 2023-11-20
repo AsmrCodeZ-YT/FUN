@@ -3,10 +3,21 @@
 This simple project was done to learn more about using the Turtle graphics class in Python. 
 When running, the turtle places dots in different colors and forms the fractal known as the Sierpiński triangle.
 
+## COLORIZE Sierpiński triangle
+
 <div align="center">
   <kbd>
-    <img src="https://i.imgur.com/A8slR5q.png" width = 300px/>
-    <img src="https://i.imgur.com/VC6CwPV.png" width = 300px/>
+    <img src="https://github.com/AsmrCodeZ-YT/FUN/blob/main/Src/black.png" width = 300px/>
+    <img src="https://github.com/AsmrCodeZ-YT/FUN/blob/main/Src/white.png" width = 300px/>
+  </kbd>
+</div>
+
+## BLACK AND WHITE Sierpiński triangle
+
+<div align="center">
+  <kbd>
+    <img src="https://github.com/AsmrCodeZ-YT/FUN/blob/main/Src/black.png" width = 300px/>
+    <img src="https://github.com/AsmrCodeZ-YT/FUN/blob/main/Src/white.png" width = 300px/>
   </kbd>
 </div>
 
