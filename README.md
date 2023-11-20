@@ -7,8 +7,7 @@ When running, the turtle places dots in different colors and forms the fractal k
 
 <div align="center">
   <kbd>
-    <img src="https://github.com/AsmrCodeZ-YT/FUN/blob/main/Src/black.png" width = 300px/>
-    <img src="https://github.com/AsmrCodeZ-YT/FUN/blob/main/Src/white.png" width = 300px/>
+    <img src="https://github.com/AsmrCodeZ-YT/FUN/blob/main/Src/colorize.png" width = 300px/>
   </kbd>
 </div>
 
