@@ -10,9 +10,9 @@ Sierpiński triangle [Wikipedia article](https://en.wikipedia.org/wiki/Sierpińs
 
 <div align="center">
   <kbd>
-    <img src="https://github.com/AsmrCodeZ-YT/FUN/blob/main/Src/colorize.png" width = 300px/>
-    <img src="https://github.com/AsmrCodeZ-YT/FUN/blob/main/Src/black.png" width = 300px/>
-    <img src="https://github.com/AsmrCodeZ-YT/FUN/blob/main/Src/white.png" width = 300px/>
+    <img src="https://github.com/AsmrCodeZ-YT/FUN/blob/main/Src/colorize.png" width = 200px/>
+    <img src="https://github.com/AsmrCodeZ-YT/FUN/blob/main/Src/black.png" width = 200px/>
+    <img src="https://github.com/AsmrCodeZ-YT/FUN/blob/main/Src/white.png" width = 200px/>
   </kbd>
 </div>
 
