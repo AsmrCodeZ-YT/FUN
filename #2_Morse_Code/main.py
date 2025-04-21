@@ -1,27 +1,36 @@
-# دیکشنری کد مورس برای حروف و اعداد
 MORSE_CODE_DICT = {
     'A': '.-', 'B': '-...', 'C': '-.-.', 'D': '-..', 'E': '.', 'F': '..-.', 'G': '--.', 'H': '....', 'I': '..', 'J': '.---',
     'K': '-.-', 'L': '.-..', 'M': '--', 'N': '-.', 'O': '---', 'P': '.--.', 'Q': '--.-', 'R': '.-.', 'S': '...', 'T': '-',
     'U': '..-', 'V': '...-', 'W': '.--', 'X': '-..-', 'Y': '-.--', 'Z': '--..',
     '1': '.----', '2': '..---', '3': '...--', '4': '....-', '5': '.....', '6': '-....', '7': '--...', '8': '---..', '9': '----.',
-    '0': '-----', ', ': '--..--', '.': '.-.-.-', '?': '..--..', '/': '-..-.', '-': '-....-', '(': '-.--.', ')': '-.--.-', ' ': '/'
+    '0': '-----', ',': '--..--', '.': '.-.-.-', '?': '..--..', '/': '-..-.', '-': '-....-', '(': '-.--.', ')': '-.--.-', ' ': '/'
 }
 
+
+MORSE_TO_TEXT_DICT = {value: key for key, value in MORSE_CODE_DICT.items()}
+
+
 def text_to_morse(text):
-    # تبدیل همه حروف به بزرگ و تبدیل هر حرف به معادل مورس آن
     text = text.upper()
     morse_code = []
     for char in text:
-        if char in MORSE_CODE_DICT:
-            morse_code.append(MORSE_CODE_DICT[char])
-        else:
-            morse_code.append('/')  # برای حروف و علایم غیرمجاز
-
+        morse_code.append(MORSE_CODE_DICT.get(char, '/'))
     return ' '.join(morse_code)
 
-# تست
-sentence = "hello"
-morse = text_to_morse(sentence)
+
+def morse_to_text(morse):
+    words = morse.split(' ')
+    decoded_chars = []
+    for code in words:
+        decoded_chars.append(MORSE_TO_TEXT_DICT.get(code, '?'))
+    return ''.join(decoded_chars)
 
 
+# Test
+text = "hello world"
+morse = text_to_morse(text)
+decoded = morse_to_text(morse)
 
+print(text)
+print(morse)
+print(decoded)
